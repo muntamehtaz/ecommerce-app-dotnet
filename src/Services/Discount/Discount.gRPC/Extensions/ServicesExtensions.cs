@@ -11,7 +11,7 @@ namespace Discount.gRPC.Extensions
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                var configuration = services.GetService<IConfiguration>();
+                var configuration = services.GetRequiredService<IConfiguration>();
                 var logger = services.GetService<ILogger>();
 
                 try
