@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using Discount.API.Entities;
+using Discount.gRPC.Entities;
 using Npgsql;
 
-namespace Discount.API.Repositories
+namespace Discount.gRPC.Repositories
 {
     public class DiscountRepository : IDiscountRepository
     {

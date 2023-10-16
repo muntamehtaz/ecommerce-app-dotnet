@@ -1,8 +1,6 @@
-﻿using Discount.API.Entities;
-using Microsoft.AspNetCore.Http.HttpResults;
-using System.Collections.Generic;
+﻿using Discount.gRPC.Entities;
 
-namespace Discount.API.Repositories
+namespace Discount.gRPC.Repositories
 {
     public interface IDiscountRepository
     {
